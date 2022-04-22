@@ -164,7 +164,7 @@ function createModal(gotRight, totalquestions, percent) {
   document.body.append(div);
 
   document.querySelector(".start-again").addEventListener("click", () => {
-    window.location = "index.html";
+    window.location.reload();
   });
 }
 
